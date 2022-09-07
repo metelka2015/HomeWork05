@@ -18,7 +18,7 @@ int Max(int[] array)
     int max = array[0];
     for (int j = 1; j < length; j++)
     {
-        if (array[j] > max) max = array[j];        
+        if (array[j] > max) max = array[j];
     }
     Console.WriteLine($"{"\nМаксимальный число"} = {max}");
     return max;
@@ -31,9 +31,9 @@ int Min(int[] massive)
     for (int i = 1; i < length; i++)
     {
         if (massive[i] < min) min = massive[i];
-        
+
     }
-    Console.WriteLine($"{"Минимальное число "} = { min}");
+    Console.WriteLine($"{"Минимальное число "} = {min}");
     return min;
 
 }
